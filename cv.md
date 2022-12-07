@@ -10,7 +10,7 @@ As ["The Beatles"](https://uk.wikipedia.org/wiki/The_Beatles) said:
 >*All you need is love!*
 >
 
-![The Beatles](https://uk.wikipedia.org/wiki/The_Beatles#/media/%D0%A4%D0%B0%D0%B9%D0%BB:The_Fabs.JPG)
+![The Beatles](https://v5.ua.news/wp-content/uploads/2019/01/the-beatles2.jpg?598622)
 
 #### Number List:
 1. Don't **worry** be **happy!**
