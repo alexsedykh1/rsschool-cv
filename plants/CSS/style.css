@@ -47,23 +47,14 @@ table {
 	border-spacing: 0;
 }
 
-/* inter-500 - latin */
+/* inter-regular - latin */
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''),
-         url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* inter-regular - latin */
-  @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../FONTS/Inter/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../FONTS/Inter/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* inter-700 - latin */
   @font-face {
@@ -71,8 +62,8 @@ table {
     font-style: normal;
     font-weight: 700;
     src: local(''),
-         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../FONTS/Inter/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../FONTS/Inter/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* inika-regular - latin */
 @font-face {
@@ -80,8 +71,8 @@ table {
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../FONTS/Inika/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../FONTS/Inika/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* inika-700 - latin */
   @font-face {
@@ -89,8 +80,8 @@ table {
     font-style: normal;
     font-weight: 700;
     src: local(''),
-         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../FONTS/Inika/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../FONTS/Inika/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   html{
     box-sizing: border-box;
@@ -98,15 +89,6 @@ table {
   *, *::before, *::after{
     box-sizing: inherit;
   }
-  body{
-    font-family: 'Inika';
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: normal;
-    color: #636060;
-}
-
 .wrapper{
     max-width: 1220px;
     margin: 0 auto;
@@ -115,17 +97,19 @@ table {
 /* Header styles start*/
 
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    background-color: #EDF2EC;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
 } 
 .header__wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 42px;
+    padding: 42px 0;
 }
 .header_list{
     display: flex;
@@ -137,19 +121,11 @@ table {
 .header__item:last-child{
     margin-right: 0;
 }
-.header__link{
-    font-family: 'Inika';
-    font-style: normal;
-    Size: 16px;
-    Line height: 50px;
+.header__link{  
     color: #010201;
     text-decoration: none;
 }
 .header__link1{
-    font-family: 'Inika';
-    font-style: normal;
-    Size: 16px;
-    Line height: 50px;
     color: #E06733;
     text-decoration: none;
 }
@@ -162,12 +138,121 @@ table {
 
 /* Header styles end*/
 
-
-/* Intro styles start*/
-.intro{
-    height: 100vh;
-    background-color: #EDF2EC;
+.main{
+     position: relative;
+     /*top: 100px;*/
 }
 
+/* Welcome styles start*/
+.welcome{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    background-color: #EDF2EC;
+}
+.welcome__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 62px 0;
+}
+.welcome__title{
+    max-width: 549px;
+    font-family: 'Inter';  /*не сходиться шрифт*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    padding-bottom: 42px;
+    /*margin-left: 782px;*/
+}
+.colortext{
+    color: #499A18; 
+}
+.welcome__subtitle{
+    max-width: 525.44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    padding-bottom: 48px;
+    /*margin-left: 782px;*/
+}
+.search__form__submit{
+    padding: 14px 27px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+.search__form__submit:hover, .search__form__submit:focus, .search__form__submit:active{
+    background: white;
+}
+.leafs__welcome-pic{
+    background-color: transparent;
+    padding: 0;
+    width: 449px;
+    height: 407px;  
+}
 
-/* Intro styles end*/
+/* Welcome styles end*/
+
+
+/* About styles start*/
+.about{
+    background-color: white;
+}
+.about__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 79px 0;
+}
+
+.about__title{
+    max-width: 463px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    padding-bottom: 40px;
+}
+
+.colortext__about{
+    color: #E06733; 
+}
+.about__subtitle{
+    max-width: 605px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+.houseplant__about-pic {
+    background-color: transparent;
+    padding: 0;
+    width: 464px;
+    height: 479px;    
+}
+/* About styles end*/
+
+
+/* Service styles start*/
+
+
