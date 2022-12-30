@@ -255,4 +255,51 @@ table {
 
 /* Service styles start*/
 
-
+.sevice__title {
+    max-width: 306px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+.service__form__submit{
+    padding: 12px 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: transparent;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    color: #E06733;
+}
+.service__form__submit:hover, .service__form__submit:focus, .service__form__submit:active{
+    background: white;
+}
+.service{
+    background-color: #EDF2EC;
+}
+.sevice_countent{
+    max-width: 1007px;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 96px;
+}
+.service_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service__item{
+    margin-right: 38px;
+}
+.header__item:last-child{
+    margin-right: 0;
