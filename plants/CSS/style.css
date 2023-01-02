@@ -254,8 +254,10 @@ table {
 
 
 /* Service styles start*/
-
-.sevice__title {
+.service{
+    background-color: #EDF2EC;
+}
+.service__title {
     max-width: 306px;
     font-family: 'Inika';
     font-style: normal;
@@ -281,18 +283,12 @@ table {
 .service__form__submit:hover, .service__form__submit:focus, .service__form__submit:active{
     background: white;
 }
-.service{
-    background-color: #EDF2EC;
-}
-.sevice_countent{
+.service_countent{
     max-width: 1007px;
-    margin: 0 auto; 
     display: flex;
-    flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-bottom: 96px;
+    margin-bottom: 96px;
 }
 .service_list{
     display: flex;
@@ -301,5 +297,58 @@ table {
 .service__item{
     margin-right: 38px;
 }
-.header__item:last-child{
+.service__item:last-child{
     margin-right: 0;
+}
+.services1{
+    width: 329.46px;
+    height: 447.17px;
+    left: 111px;
+    top: 230px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+.services2{
+    width: 329.46px;
+    height: 447.17px;
+    left: 556.27px;
+    top: 230px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px; 
+    text-align: center;
+}
+.services__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    margin-top: 10px;
+}
+.services__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+.services{
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 949px;
+}
+.service__wrapper{
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 121px;
+}
+/* Service styles end*/
