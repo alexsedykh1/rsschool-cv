@@ -89,6 +89,10 @@ table {
   *, *::before, *::after{
     box-sizing: inherit;
   }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
 .wrapper{
     max-width: 1220px;
     margin: 0 auto;
@@ -352,3 +356,100 @@ table {
     padding-bottom: 121px;
 }
 /* Service styles end*/
+
+/* Prices styles start*/
+.prices{
+    background-color: white;
+}
+.prices__wrapper{
+    margin-top: 40px;
+    margin-bottom: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+.prices1__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.prices__submit{
+    padding: 16px 110px 16px 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /*background-color: #EDF2EC;*/
+    border: .5px solid #EDF2EC;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC url(../IMG/SVG/prices\ button\ round.svg) no-repeat 90% center;
+    text-align: start; 
+}
+.prices__item{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    padding: 34px 41px;
+}
+.prices__button{
+    margin-bottom: 32px;
+}
+.prices__button:last-child{
+    margin-bottom: 0;
+}
+.colortext__call__us{
+    color:#499A18;
+}
+.call__us__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+    width: 452px;
+    height: 103px;
+    left: 879px;
+    top: 40px;
+    margin-bottom: 38px;
+}
+.call__us__submit{
+    padding: 12px 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: transparent;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    color: #E06733;
+}
+.call__us__submit:last-child{
+    margin-right: 0;
+}
+.text__call__us{
+    max-width: 452px;
+    max-height: 191px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-bottom: 39px;
+}
+.prices2{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leafes1{
+    margin-left: 300px;
+}
+/* Prices styles end*/
