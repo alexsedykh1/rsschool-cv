@@ -528,3 +528,48 @@ table {
 }
 /* Contacts styles end*/
 
+/* Footer styles start*/
+.footer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: white;
+}
+.footer__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+.footer__data{
+    height: 50px;
+    width: 182px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-rs{
+    height: 50px;
+    left: 42.71%;
+    right: 42.64%;
+    top: calc(50% - 50px/2);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer__social__list{
+    height: 50px;
+    width: 188px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Footer styles end*/
+
