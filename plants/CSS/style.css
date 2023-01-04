@@ -383,7 +383,6 @@ table {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    /*background-color: #EDF2EC;*/
     border: .5px solid #EDF2EC;
     border-radius: 20px;
     width: 250px;
@@ -453,3 +452,79 @@ table {
     margin-left: 300px;
 }
 /* Prices styles end*/
+
+
+/* Contacts styles start*/
+.contacts{
+    background-color: #EDF2EC; 
+}
+.contacts__img{
+    padding-top: 53px;
+}
+.contacts__wrapper{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.contact_woman-pic{
+    width: 400px;
+    height: 496.99px;
+    left: 109px;
+    top: 53px;
+}
+.contact__us{
+    margin-left: 113px;
+    padding-top: 60px;
+}
+.contact__us__title{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin-bottom: 37px;
+}
+.contacts__submit{
+    height: 50px;
+    width: 450px;
+    left: 61.18%;
+    right: 7.57%;
+    top: 148px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: .5px solid #D6E7D2;
+    border-radius: 0px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171; 
+    background: #D6E7D2 url(../IMG/SVG/accordion_btn.svg) no-repeat 90% center;
+    text-align: left;
+}
+.contacts__submit:last-child{
+    margin-right: 0;
+}
+.search_form_field{
+    width: 204px;
+    height: 40px;
+    left: 901px;
+    top: 153px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    background: #D6E7D2;
+    border: .5px solid #D6E7D2;
+    margin: 5px 225px 5px 20px;
+}
+.contacts__container{
+    margin-left: 257px;
+}
+/* Contacts styles end*/
+
