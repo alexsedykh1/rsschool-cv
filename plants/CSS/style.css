@@ -510,6 +510,8 @@ table {
     color: #717171; 
     background: #D6E7D2 url(../IMG/SVG/accordion_btn.svg) no-repeat 90% center;
     text-align: left;
+    padding-left: 20px;
+    margin-left: 257px;
 }
 .contacts__submit:hover, .contacts__submit:focus, .contacts__submit:active{
     opacity: .75;
@@ -517,25 +519,7 @@ table {
 .contacts__submit:last-child{
     margin-right: 0;
 }
-.search_form_field{
-    width: 204px;
-    height: 40px;
-    left: 901px;
-    top: 153px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    letter-spacing: 0.05em;
-    color: #717171;
-    background: #D6E7D2;
-    border: .5px solid #D6E7D2;
-    margin: 5px 225px 5px 20px;
-}
-.contacts__container{
-    margin-left: 257px;
-}
+
 /* Contacts styles end*/
 
 /* Footer styles start*/
