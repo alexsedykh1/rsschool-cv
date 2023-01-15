@@ -162,11 +162,11 @@ table {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 62px 0;
+    padding: 57px 0;
 }
 .welcome__title{
     max-width: 549px;
-    font-family: 'Inter';  /*не сходиться шрифт*/
+    font-family: 'Inter';  
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -190,19 +190,26 @@ table {
     /*margin-left: 782px;*/
 }
 .search__form__submit{
-    padding: 14px 27px;
+    width: 158px;
+    height: 44px;
+    padding: 14px 25px;
     text-transform: uppercase;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     background-color: transparent;
     border: 2px solid #E06733;
     border-radius: 10px;
 }
 .search__form__submit:hover, .search__form__submit:focus, .search__form__submit:active{
-    background: white;
+    background: #E06733;
+    color: #fff;
+    transition: all .5s;
 }
 .leafs__welcome-pic{
     background-color: transparent;
@@ -223,7 +230,7 @@ table {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 79px 0;
+    padding: 93px 0px;
 }
 
 .about__title{
@@ -286,14 +293,16 @@ table {
     color: #E06733;
 }
 .service__form__submit:hover, .service__form__submit:focus, .service__form__submit:active{
-    background: white;
+    background: #E06733;
+    color: #fff;
+    transition: all .5s;
 }
 .service_countent{
     max-width: 1007px;
     display: flex;
     align-items:center;
     justify-content: space-between;
-    margin-bottom: 96px;
+    margin-bottom: 78px;
 }
 .service_list{
     display: flex;
@@ -305,21 +314,11 @@ table {
 .service__item:last-child{
     margin-right: 0;
 }
-.services1{
-    width: 329.46px;
-    height: 447.17px;
-    left: 111px;
-    top: 230px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
-    text-align: center;
-}
 .services2{
-    width: 329.46px;
-    height: 447.17px;
-    left: 556.27px;
-    top: 230px;
+    width: 330px;
+    height: 450px;
+    /*left: 1556.27px;
+    top: 230px;*/
     border: 1px solid #E3E1D5;
     border-radius: 20px; 
     text-align: center;
@@ -349,7 +348,7 @@ table {
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
-    height: 949px;
+    height: 955px;
 }
 .service__wrapper{
     justify-content: flex-start;
@@ -364,7 +363,7 @@ table {
 }
 .prices__wrapper{
     margin-top: 40px;
-    margin-bottom: 115px;
+    margin-bottom: 114px;
     display: flex;
     justify-content: space-between;
 }
@@ -375,7 +374,7 @@ table {
     font-size: 40px;
     line-height: 48px;
     color: #000000;
-    margin-bottom: 60px;
+    margin-bottom: 57px;
 }
 .prices__submit{
     padding: 16px 110px 16px 40px;
@@ -388,7 +387,7 @@ table {
     border-radius: 20px;
     width: 250px;
     height: 50px;
-    background: #EDF2EC url(../IMG/SVG/prices\ button\ round.svg) no-repeat 90% center;
+    background: #EDF2EC url(../IMG/SVG/prices\ button\ round.svg) no-repeat 84% center;
     text-align: start; 
 }
 .prices__submit:hover, .prices__submit:focus, .prices__submit:active{
@@ -437,7 +436,9 @@ table {
     color: #E06733;
 }
 .call__us__submit:hover, .call__us__submit:focus, .call__us__submit:active{
-    background: #EDF2EC;
+    background: #E06733;
+    color: #fff;
+    transition: all .5s;
 }
 .call__us__submit:last-child{
     margin-right: 0;
@@ -454,8 +455,11 @@ table {
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 438px;
 }
 .leafes1{
+    width: 152px;
+    height: 175px;
     margin-left: 300px;
 }
 /* Prices styles end*/
@@ -466,7 +470,7 @@ table {
     background-color: #EDF2EC; 
 }
 .contacts__img{
-    padding-top: 53px;
+    margin-top: 53px;
 }
 .contacts__wrapper{
     flex-direction: row;
@@ -508,7 +512,7 @@ table {
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #717171; 
-    background: #D6E7D2 url(../IMG/SVG/accordion_btn.svg) no-repeat 90% center;
+    background: #D6E7D2 url(../IMG/SVG/accordion_btn.svg) no-repeat 93% center;
     text-align: left;
     padding-left: 20px;
     margin-left: 257px;
@@ -535,7 +539,8 @@ table {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 40px;
+    align-items: center;
+    margin: 37px 0;
 }
 .footer__data{
     height: 50px;
