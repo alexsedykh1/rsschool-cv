@@ -97,18 +97,28 @@ table {
 .wrapper{
     max-width: 1220px;
     margin: 0 auto;
+    padding: 0 20px;
 } 
 
 /* Header styles start*/
 
 .header{
-    background-color: #EDF2EC;
+    background-color: transparent;
     font-family: 'Inika';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 50px;
+    line-height: 50px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 7;
 } 
+
+.header__active{
+    background: #EDF2EC;
+}
 .header__wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +151,39 @@ table {
     opacity: .75;
 }
 
+.header__burger{
+    display: none;
+    width: 40px;
+    height: 24px;
+    position: relative;
+}
+
+.burger__line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:#717171;
+    position: absolute;
+    left: 0;
+}
+
+.burger__line_1{
+    top: 0;
+}
+
+.burger__line_2{
+    top: 35%;
+    transform: translateY(-65%);
+}
+
+.burger__line_3{
+    top: 65%;
+    transform: translateY(-35%);
+}
+
+.burger__line_4{
+    bottom: 0;
+}
 /* Header styles end*/
 
 .main{
@@ -156,6 +199,7 @@ table {
     font-size: 45px;
     line-height: 50px;
     background-color: #EDF2EC;
+    padding-top: 134px;
 }
 .welcome__wrapper{
     display: flex;
@@ -572,5 +616,67 @@ table {
 }
 /* Footer styles end*/
 
-/*finita*/
+/* Media start */
+
+@media all and (max-width: 767px) {
+    .header__burger{
+        display: block;
+    }
+    .header__nav{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #EDF2EC;
+        z-index: 10;
+        padding: 75px;
+        transform: translateX(100%);
+        transition: .2s all linear;
+    }
+    .header__nav_active{
+        transform: translateX(0);
+    }
+    .header__item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .header__item:last-child{
+        margin-bottom: 0;
+    }
+    .header__link{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .header__link1{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .header__nav-close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+    .header__nav-close-line{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #717171;
+        position: absolute;
+        top: 50%;
+        
+    }
+    .header__nav-close-line:first-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .header__nav-close-line:last-child{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+}
+
+/* Media end */
 
