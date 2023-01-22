@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plants</title>
-    <script src="/plants.js"></script>
+    <script defer src="/plants.js"></script>
     <link rel="icon" href="/IMG/SVG/logo_vector.svg">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -36,7 +36,18 @@
                                 <a href="#contacts" class="header__link">Contacts</a>
                             </li>
                         </ul>
+                        <div class="header__nav-close">
+                            <span class="header__nav-close-line"></span>
+                            <span class="header__nav-close-line"></span> 
+                        </div>
                     </nav>
+                    <div class="header__burger burger">
+                        <span class="burger__line burger__line_1"></span>
+                        <span class="burger__line burger__line_2"></span>
+                        <span class="burger__line burger__line_3"></span>
+                        <span class="burger__line burger__line_4"></span>
+                    </div>
+
                 </div>
         </div>          
     </header>
@@ -166,7 +177,7 @@
                         Prices
                     </h2>
                   <div class="prices__item">
-                    <ul class="prices_list">
+                        <ul class="prices_list">
                             <li class="prices__button">
                                 <button type="button" class="prices__submit">Basics</button>
                             </li>
@@ -176,7 +187,7 @@
                             <li class="prices__button">
                                 <button type="button" class="prices__submit">Pro care</button>
                             </li>
-                    </ul>
+                        </ul>
                   </div>  
                </div>
                <div class="prices2">
@@ -189,7 +200,7 @@
                     <div class="leafes1">
                         <img src="./IMG/SVG/leafs1.svg" alt="leafs1" class="call__us-pic">
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -203,13 +214,14 @@
                     <h2 class="contact__us__title">
                         Contact us
                     </h2>
-                    <p class="contacts__container">
-                        <input class="contacts__submit" type="button" value="City">
-                    </p>
-                </div>     
-                    
+                </div>
+               <div class="contacts__container">
+                    <input class="contacts__submit" type="button" value="City">
+                </div>
             </div>
+            
         </div>
+         
     </section>
 </main>
     <footer class= "footer">
@@ -224,9 +236,11 @@
                         github
                     </a>
                 </div>
-                <a class = "footer-rs" href="https://rs.school/js-stage0/">
-                    Rolling Scopes School
-                </a>
+                  <div class="footer-rs1">
+                    <a class = "footer-rs" href="https://rs.school/js-stage0/">
+                        Rolling Scopes School
+                    </a>
+                </div>
                 <div class= "footer__social__list">
                     <a href="#!">
                         <img src= "./IMG/SVG/inst.svg" alt= "inst" class= "footer__social-pic">
