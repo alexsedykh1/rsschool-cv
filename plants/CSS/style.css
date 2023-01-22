@@ -213,7 +213,7 @@ table {
     font-size: 45px;
     line-height: 50px;
     background-color: #EDF2EC;
-    padding-top: 134px;
+    padding-top: 0px;
 }
 .welcome__wrapper{
     display: flex;
@@ -598,7 +598,7 @@ table {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 37px 0;
+    margin: 40px 0;
 }
 .footer__data{
     height: 50px;
